@@ -352,3 +352,62 @@
     opacity: 1;
   }
   
+
+
+  footer {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+    color: #1f80e0;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
+  
+  .store-logo {
+    width: 120px;
+    margin-right: 10px;
+  }
+
